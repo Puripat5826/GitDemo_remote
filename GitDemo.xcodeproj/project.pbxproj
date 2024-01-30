@@ -11,6 +11,7 @@
 		DEC136742B695BD7008C5DB6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC136732B695BD7008C5DB6 /* MainView.swift */; };
 		DEC136762B695BD9008C5DB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEC136752B695BD9008C5DB6 /* Assets.xcassets */; };
 		DEC136792B695BD9008C5DB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEC136782B695BD9008C5DB6 /* Preview Assets.xcassets */; };
+		DEC136802B695E6E008C5DB6 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC1367F2B695E6E008C5DB6 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DEC136732B695BD7008C5DB6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		DEC136752B695BD9008C5DB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEC136782B695BD9008C5DB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DEC1367F2B695E6E008C5DB6 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				DEC136712B695BD7008C5DB6 /* GitDemoApp.swift */,
+				DEC1367F2B695E6E008C5DB6 /* SecondView.swift */,
 				DEC136732B695BD7008C5DB6 /* MainView.swift */,
 				DEC136752B695BD9008C5DB6 /* Assets.xcassets */,
 				DEC136772B695BD9008C5DB6 /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEC136802B695E6E008C5DB6 /* SecondView.swift in Sources */,
 				DEC136742B695BD7008C5DB6 /* MainView.swift in Sources */,
 				DEC136722B695BD7008C5DB6 /* GitDemoApp.swift in Sources */,
 			);
