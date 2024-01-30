@@ -12,13 +12,16 @@ struct MainView: View {
     // MARK: - Body
     
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello Git")
+        ZStack {
+            Color.red.ignoresSafeArea(.all)
+            VStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundStyle(.tint)
+                Text("Hello Git")
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
